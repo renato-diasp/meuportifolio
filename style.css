@@ -301,6 +301,36 @@ form button:hover{
   border:2px solid #CC3232;
 }
 
+/* Responsive */
+
+@media (max-width: 1200px){
+  #button-github{
+    width: 25%;
+  }
+}
+
+@media (max-width: 1024px){
+  .knowledge{
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .knowledge img{
+    min-width: 70%;
+
+  }
+
+  .html, .css, .js{
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px){
+  #button-github{
+    width: 28%;
+  }
+}
+
 
 
 
