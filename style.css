@@ -317,7 +317,8 @@ form button:hover{
   }
 
   .knowledge img{
-    min-width: 40%;
+
+    min-width: 45%;
     column-gap: 5px;
 
   }
