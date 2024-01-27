@@ -319,14 +319,9 @@ form button:hover{
   
   .html, .css, .js{
     min-width: 45%;
-    column-gap: 80px;
+    column-gap: 1rem;
     margin-bottom: 2rem;
-    
-    
-  }
-
-  .html img, .css img, .js img{
-    
+    align-items: center;
     
     
   }
