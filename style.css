@@ -337,6 +337,17 @@ form button:hover{
     margin-left: 2px;
 
   }
+
+  .sobre{
+    flex-direction: column;
+  }
+  .about{
+    width: 100%;
+  }
+
+  .skills{
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px){
