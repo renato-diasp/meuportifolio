@@ -318,12 +318,12 @@ form button:hover{
 
   .knowledge img{
 
+    
+  }
+  
+  .html, .css, .js{
     min-width: 45%;
     column-gap: 5px;
-
-  }
-
-  .html, .css, .js{
     margin-bottom: 2rem;
     align-items: center;
     
