@@ -344,13 +344,13 @@ form button:hover{
   }
   .about{
     width: 80%;
-    font-size: 2.2rem;
+    font-size: 2.2rem !important;
     
   }
 
   .skills{
     width: 80%;
-    font-size: 2.2rem;
+    font-size: 2.2rem !important;
   }
 }
 
