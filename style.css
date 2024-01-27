@@ -323,17 +323,20 @@ form button:hover{
 
   .html, .css, .js{
     margin-bottom: 2rem;
+    align-items: center;
     
   }
 
   .html p, .css p, .js p{
     font-size: 2rem;
+
     
   }
 
   .html span, .css span, .js span{
     font-size: 2rem;
     margin-left: 2px;
+
   }
 }
 
