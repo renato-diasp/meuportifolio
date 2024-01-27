@@ -342,11 +342,13 @@ form button:hover{
     flex-direction: column;
   }
   .about{
-    width: 100%;
+    width: 80%;
+    font-size: 2.2rem;
   }
 
   .skills{
-    width: 100%;
+    width: 80%;
+    font-size: 2.2rem;
   }
 }
 
