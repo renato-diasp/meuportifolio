@@ -316,10 +316,6 @@ form button:hover{
     
   }
 
-  .knowledge img{
-
-    
-  }
   
   .html, .css, .js{
     min-width: 45%;
@@ -330,7 +326,7 @@ form button:hover{
   }
 
   .html img, .css img, .js img{
-    align-self: center;
+    align-self:self-end;
     
     
   }
