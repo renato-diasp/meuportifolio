@@ -267,6 +267,13 @@ form button:hover{
  .contactme img{
   width: 80%;
  }
+
+ .social-media{
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  
+ }
   
 }
 
