@@ -74,127 +74,15 @@ header p{
 main{
   grid-area: main;
   background-color: #161616;
+  /* height: 60vh; */
   
 }
 
-.knowledge{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5rem;
-  margin-bottom: 8rem;
+.knowledge img{
+  max-width: 40%;
 }
 
-.knowledge p{
-  font-size: 1.4rem;
-}
-
-
-.html img, .css img, .js img{
-  max-width: 100%;
-}
-
-.html{
-display: grid;
-grid-template-columns: 30% auto;
-grid-template-rows: 1fr 2fr;
-column-gap: 10px;
-
-grid-template-areas: 
-'img html'
-'img sobre';
-}
-
-.html img{ 
-  grid-area: img;
-  align-self: end;
-  width: 100%;
-}
-
-.html p{
-  grid-area: html;
-  align-self: center;
-  
-  
-}
-
-.html span{
-  grid-area: sobre;
-  align-self: center;
-  justify-self: center;
-  color: #707070;
-  font-weight: 300;
-  font-size: 1.1rem;
-  margin-right: 0.9rem;
-}
-
-.css{
-  display: grid;
-  grid-template-columns: 30% auto;
-  grid-template-rows: 1fr 2fr;
-  column-gap: 10px;
-  
-
-  grid-template-areas: 
-  'img css'
-  'img sobre';
-}
-
-.css img{ 
-  grid-area: img;
-  align-self: end;
-  width: 100%;
-}
-
-.css p{
-  grid-area: css;
-  
-}
-
-.css span{
-  grid-area: sobre;
-  align-self: center;
-  justify-self: center;
-  color: #707070;
-  font-weight: 300;
-  font-size: 1.1rem;
-  margin-right: 0.9rem;
-}
-
-.js{
-  display: grid;
-  grid-template-columns: 30% auto;
-  grid-template-rows: 1fr 2fr;
-  column-gap: 10px;
-  
-  grid-template-areas: 
-  'img js'
-  'img sobre';
-  
-}
-
-.js img{ 
-  grid-area: img;
-  align-self: end;
-  width: 100%;
-}
-
-.js p{
-  grid-area: js;
-  
-}
-
-.js span{
-  grid-area: sobre;
-  align-self: center;
-  justify-self: center;
-  color: #707070;
-  font-weight: 300;
-  font-size: 1.1rem;
-  margin-right: 0.9rem;
-}
-
-section{
+.sobre-mim{
   background-color: #2b2b2b ;
   color: #fff;
   grid-area: about;
@@ -324,36 +212,6 @@ form button:hover{
   }
 
   
-  .html, .css, .js{
-    column-gap: 1rem;
-    margin-bottom: 2rem;
-    /* align-items: center;    */
-  }
-
-  .html span{
-    width: fit-content;
-    height: fit-content;
-  }
-
-  .html img, .css img, .js img{
-    min-width:9rem;
-    /* min-height:max-content; */
-    align-self:flex-end;
-    margin-right: 4rem;
-  }
-
-  .html p, .css p, .js p{
-    font-size: 2.2rem;
-
-    
-  }
-
-  .html span, .css span, .js span{
-    font-size: 2.2rem;
-    margin-left: 2px;
-
-  }
-
   .sobre{
     flex-direction: column;
     align-items: center;
