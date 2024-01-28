@@ -368,6 +368,10 @@ form button:hover{
     width: 80%;    
   }
 
+  .skills p, .skills span{
+    font-size: 2.2rem;
+  }
+
 
 
 @media (max-width: 768px){
@@ -375,11 +379,3 @@ form button:hover{
     width: 28%;
   }
 }
-
-
-
-
-
-
-
-
