@@ -379,7 +379,7 @@ form button:hover{
   }
 
   .contactme{
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   
 }
@@ -389,9 +389,5 @@ form button:hover{
     width: 35%;
   }
 
-  .html img, .css img, .js img{
-    min-width: 160%;
-    align-self: self-end;
-    margin-right: 6rem;
-  }
+
 }
