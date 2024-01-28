@@ -211,8 +211,16 @@ form button:hover{
     
   }
 
+  h1{
+    font-size: 3.2rem;
+  }
+
   h2{
     font-size: 2.8rem;
+  }
+
+  header p{
+    font-size: 2rem;
   }
   
   .sobre{
