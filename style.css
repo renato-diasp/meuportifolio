@@ -321,14 +321,13 @@ form button:hover{
   .html, .css, .js{
     column-gap: 1rem;
     margin-bottom: 2rem;
-    align-items: center;
-    
-    
+    align-items: center;   
   }
 
   .html img, .css img, .js img{
     width: 100%;
     align-self: self-end;
+    margin-right: 2.5rem;
   }
 
   .html p, .css p, .js p{
