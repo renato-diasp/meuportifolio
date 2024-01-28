@@ -217,22 +217,22 @@ form button:hover{
     align-items: center;
   }
 
-  .sobre p{
-    font-size: 2.2rem;
-  }
-
-  .about{
+ .about{
     width: 80%;
     
   }
 
   .about h3{
-    font-size: 3.2rem;
+    font-size: 2.2rem;
   }
   .about h6{
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
+  }
+
+  .about p{
+    font-size: 1.5rem;
   }
   .skills{
     width: 80%;    
