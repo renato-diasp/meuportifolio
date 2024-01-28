@@ -211,6 +211,9 @@ form button:hover{
     
   }
 
+  h2{
+    font-size: 2.8rem;
+  }
   
   .sobre{
     flex-direction: column;
@@ -223,7 +226,7 @@ form button:hover{
   }
 
   .about h3{
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
   .about h6{
     font-size: 1.8rem;
