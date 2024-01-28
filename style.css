@@ -280,6 +280,10 @@ form button:hover{
   #button-github{
     width: 35%;
   }
+}
 
-
+@media (max-width: 480px){
+  #button-github{
+    width: 45%;
+  }
 }
