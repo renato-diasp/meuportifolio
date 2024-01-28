@@ -384,7 +384,9 @@ form button:hover{
     font-size: 2.5rem;
   }
 
- 
+ .contactme img{
+  width: 80%;
+ }
   
 }
 
