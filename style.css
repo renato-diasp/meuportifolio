@@ -107,8 +107,8 @@ grid-template-areas:
 
 .html img{ 
   grid-area: img;
-  align-self: center;
-  justify-self: center;
+  align-self: end;
+  width: max-content;
 }
 
 .html p{
@@ -142,8 +142,8 @@ grid-template-areas:
 
 .css img{ 
   grid-area: img;
-  align-self: center;
-  justify-self: center;
+  align-self: end;
+  width: max-content;
 }
 
 .css p{
@@ -175,8 +175,8 @@ grid-template-areas:
 
 .js img{ 
   grid-area: img;
-  align-self: center;
-  justify-self: center;
+  align-self: end;
+  width: max-content;
 }
 
 .js p{
@@ -327,13 +327,19 @@ form button:hover{
   .html, .css, .js{
     column-gap: 1rem;
     margin-bottom: 2rem;
-    align-items: center;   
+    /* align-items: center;    */
+  }
+
+  .html span{
+    width: fit-content;
+    height: fit-content;
   }
 
   .html img, .css img, .js img{
-    width: 100%;
+    min-width:min-content;
+    /* min-height:max-content; */
     align-self: self-end;
-    margin-right: 2.5rem;
+    margin-right: 4rem;
   }
 
   .html p, .css p, .js p{
@@ -378,9 +384,9 @@ form button:hover{
     font-size: 2.5rem;
   }
 
-  .contactme{
-    /* flex-direction: column; */
-  }
+ .contactme{
+  flex-direction: column;
+ }
   
 }
 
