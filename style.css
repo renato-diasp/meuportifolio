@@ -141,8 +141,9 @@ footer{
 }
 .social{
   color: #707070;
-
-  
+  display: flex;
+  flex-direction: column;
+  gap: 1.55rem;  
 }
 
 
